@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veka Pijamas - Tienda en línea</title>
+    <style>
+        /* Estilos CSS para el contenido general */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos CSS para el encabezado */
+        header {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Estilos CSS para el menú de navegación */
+        nav {
+            background-color: #f1f1f1;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #e6e6e6;
+        }
+
+        /* Estilos CSS para la sección de inicio */
+        #inicio {
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #inicio h2 {
+            margin-top: 0;
+        }
+
+        /* Estilos CSS para el catálogo de productos */
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .producto {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .producto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .producto-info {
+            padding: 20px;
+        }
+
+        .producto-info h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .producto-info p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .producto-info .precio {
+            font-weight: bold;
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/LOGO.png" alt="Logo de Veka Pijamas" title="Logo de Veka Pijamas" width="100" height="100">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#envios-devoluciones">Envíos y Devoluciones</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Inicio -->
+        <section id="inicio">
+            <div style="text-align: center;">
+                <h2>¡Bienvenidos a Veka Pijamas!</h2>
+                <p>Descubre nuestra colección de pijamas cómodas y modernas para todas las ocasiones.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/boJ7enHXZvQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+<!-- Sección de Catálogo de Pijamas -->
+<section id="productos">
+    <h2>Catálogo de Pijamas</h2>
+    <div class="catalogo">
+        <div class="producto">
+            <img src="Imagenes/image (1).png" alt="Pijama 1">
+            <div class="producto-info">
+                <h3>Pijama de Algodón Rosa</h3>
+                <p>Pijama de algodón rosa, suave y delicado. Diseño femenino y moderno, perfecto para disfrutar de una noche de descanso en total comodidad.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $20.0000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/image (2).png" alt="Pijama 2">
+            <div class="producto-info">
+                <h3>Pijama de Seda Azul</h3>
+                <p>Pijama de seda azul, suave y elegante. Corte moderno y diseño refinado, perfecto para una noche de descanso en total comodidad.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $50000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/image.png" alt="Pijama 3">
+            <div class="producto-info">
+                <h3>Pijama de Lino Blanco</h3>
+                <p>Pijama de lino blanco, una prenda fresca y natural para una noche de sueño tranquilo. Corte sencillo y elegante, perfecto para un descanso cómodo y relajante.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $60.000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/image.3.png" alt="Pijama 4">
+            <div class="producto-info">
+                <h3>Pijama de Seda Verde</h3>
+                <p>Pijama de seda verde, una pieza de lujo para un descanso relajante. Diseño estilizado y tela de alta calidad, ideal para una noche de sueño placentero.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $80.000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <div class="catalogo">
+        <div class="producto">
+            <img src="Imagenes/image (1).png" alt="Pijama 1">
+            <div class="producto-info">
+                <h3>Pijama de Algodón Rosa</h3>
+                <p>Pijama de algodón rosa, suave y delicado. Diseño femenino y moderno, perfecto para disfrutar de una noche de descanso en total comodidad.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $20.0000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/image (2).png" alt="Pijama 2">
+            <div class="producto-info">
+                <h3>Pijama de Seda Azul</h3>
+                <p>Pijama de seda azul, suave y elegante. Corte moderno y diseño refinado, perfecto para una noche de descanso en total comodidad.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $50000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/image.png" alt="Pijama 3">
+            <div class="producto-info">
+                <h3>Pijama de Lino Blanco</h3>
+                <p>Pijama de lino blanco, una prenda fresca y natural para una noche de sueño tranquilo. Corte sencillo y elegante, perfecto para un descanso cómodo y relajante.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $60.000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="Imagenes/image.3.png" alt="Pijama 4">
+            <div class="producto-info">
+                <h3>Pijama de Seda Verde</h3>
+                <p>Pijama de seda verde, una pieza de lujo para un descanso relajante. Diseño estilizado y tela de alta calidad, ideal para una noche de sueño placentero.</p>
+                <p class="precio" style="color: #ff69b4;">Precio: $80.000</p>
+                <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Comprar</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Sección de Envíos y Devoluciones -->
+<section id="envios-devoluciones" style="text-align: center; padding: 20px; background-color: #f9f9f9; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+    <h2>Envíos y Devoluciones</h2>
+    <div style="text-align: left;">
+        <p>Los envíos son realizados a domicilio. Envíos gratis por compras mayores a tres pijamas. Los tiempos de entrega son de 2-3 días.</p>
+        <p>Para la devolución, el producto debe estar en perfecto estado.</p>
+        <p>No asumimos costos de envío por devoluciones.</p>
+        <p>Los tiempos de respuesta y proceso son de 2-3 días.</p>
+        <p>Para gestionar las devoluciones, haga clic <a href="https://wa.me/573142203435">aquí</a> "Gestionar Devoluciones". Cuando se dirija a esos botones, lo llevarán al chat de nuestro equipo que llevará su proceso y si es apta para una devolución, primero llenará unos datos básicos para gestionar su requerimiento que se le pedirán en el chat.</p>
+        <p>Más información</p>
+        <button onclick="window.location.href='https://wa.me/573142203435'" style="padding: 10px 20px; background-color: #ff69b4; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Clic aquí</button>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- Sección de FAQ -->
+<section id="faq" style="text-align: left; padding: 20px; background-color: #f9f9f9; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border-radius: 10px; margin-bottom: 20px;">
+    <h2 style="text-align: center;">Preguntas Frecuentes</h2>
+    <p>¿Cuánto tiempo tarda en llegar mi pedido? Su pedido tardará en llegar de tres a dos días.</p>
+    <p>¿Puedo realizar un cambio o devolución de mi compra? ¿Hay algún costo de envío adicional? ¿Ofrecen algún tipo de garantía en los productos?, entre otros.</p>
+    <p>Para más preguntas, haga clic <a href="https://wa.me/573142203435">aquí</a>. Se resolverán sus dudas.</p>
+</section>
+
+
+
+<!-- Pie de página -->
+<footer style="padding: 20px; background-color: #ff69b4; text-align: center; margin-top: 20px; border-top: 1px solid #e1e1e1;">
+    <p style="color: #ffffff;">Contáctanos</p>
+    <p style="color: #ffffff;">Email: <a href="mailto:veka_pijams@gmail.com" style="color: #ffffff;">veka_pijams@gmail.com</a></p>
+    <p style="color: #ffffff;">Dirección web de la tienda: <a href="http://www.vekapijamas.com" style="color: #ffffff;">www.vekapijamas.com</a></p>
+    <p style="color: #ffffff;">Teléfono: <a href="tel:+573142203435" style="color: #ffffff;">+57 314 220 3435</a></p>
+    <p style="color: #ffffff;">@veka_pijamas</p>
+</footer>
+
+
+                                        elaborado por karen fajardo:2024
