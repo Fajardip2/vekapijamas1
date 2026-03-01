@@ -104,6 +104,28 @@ body {
         .producto-info .precio {
             font-weight: bold;
             color: #ff6600;
+            /* ===== NAV RESPONSIVE SIMPLE ===== */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+    }
+}
         }
     </style>
 <body>
@@ -116,7 +138,6 @@ body {
                 <li><a href="#envios-devoluciones">Envíos y Devoluciones</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <!-- Pie de página -->
-<footer id="contacto" style="padding: 20px; background-color: #ff69b4; text-align: center; margin-top: 20px; border-top: 1px solid #e1e1e1;">
             </ul>
         </nav>
     </header>
@@ -259,6 +280,7 @@ body {
 
 
                                         Elaborado por karen fajardo:2024
+
 
 
 
